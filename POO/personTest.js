@@ -1,4 +1,4 @@
-let person = require("./person");
+let  {Person} = require("./person");
 
 let pepe = new Person("Pepe", 80, 1.79, 1968);
 let maria = new Person("Maria", 60, 1.63, 2000);

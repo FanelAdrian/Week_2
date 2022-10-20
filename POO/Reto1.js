@@ -5,6 +5,7 @@ class Person {
 
     constructor(nombre, peso, altura, añoNacimiento) {
         this.name = nombre;
+        this.lastname;
         this.age;
         this.yearOfBirth = añoNacimiento;
         this.nationality;
@@ -75,3 +76,36 @@ ester.printHobbies();
 • Importar la clase en otro fichero denominado personTest.js.
 • Crear un objeto de la clase Persona y probar todos sus atributos y métodos.
 • Sube todos los cambios a tu rama “dia1” */
+
+/* Reto 7
+• Crear una clase que se llame Contacts que tenga un atributo que sea un array de objetos
+de la clase Person. No olvides seguir trabajando desde tu rama ”dia1”.
+
+• El constructor de la clase Contacts no debe tener parámetros de entrada pero debe
+inicializar el array.
+
+• Crear un método llamado printPersons que imprima cada uno de los atributos de cada
+objeto Person. */
+let contactos = [pepe, maria, ester]
+class Contacts {
+    constructor() {
+        this.person = contactos;
+    }
+    contactos(){
+        return contactos;
+    }
+}
+console.log(contactos);
+/* 
+Reto 8
+• Guardar la clase Contacts en un fichero con extensión .js (contacts.js).
+
+• Modificar ese fichero para exportar la clase. Importar la clase en otro fichero denominado
+contactsTest.js.
+
+• Crear un objeto de la clase Contacts y probar todos sus atributos y métodos.
+
+• Sube todos los cambios a tu rama “dia1” y después haz ”merge” con tu rama
+“master/main”. En caso de tener conflicto soluciónalos.
+
+• Haz una versión de esta subida. */
