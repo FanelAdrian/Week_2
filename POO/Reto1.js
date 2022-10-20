@@ -47,16 +47,16 @@ Utilizando la clase Person definida en el punto anterior, haz que se pueda calcu
 (índice de mas corporal) de cualquier persona que se haya creado como un objeto de la
 clase. */
 
-let pepe = new Person("Pepe", 80, 1.79, 1968);
+/* let pepe = new Person("Pepe", 80, 1.79, 1968);
 console.log(pepe.calcular_imc());
-
+ */
 /* Reto 3
 Añadir el atributo yearOfBirth a la clase Person e implementar el método edad que tome
 como parámetro el año y calcule la edad de la persona. */
 
-let maria = new Person("Maria", 60, 1.63, 2000);
-console.log(pepe.edad());
-
+/* let maria = new Person("Maria", 60, 1.63, 2000);
+console.log(maria.edad());
+ */
 /* Reto 4
 Añadir un método que se denomine printAll que muestre por consola cada uno de los
 atributos de la clase Person seguido por “-” y el valor del atributo. */
@@ -67,8 +67,8 @@ ester.printAll();
 /* Reto 5
 Añadir el atributo hobbies a la clase Person, que es un array de strings, y crear un método
 denominado printHobbies, que muestre por consola las aficiones de la persona. */
-ester.printHobbies();
-
+ ester.printHobbies();
+ 
 /* Reto 6
 
 • Guardar la clase Person en un fichero con extensión .js (person.js).
@@ -86,7 +86,7 @@ inicializar el array.
 
 • Crear un método llamado printPersons que imprima cada uno de los atributos de cada
 objeto Person. */
-let contactos = [pepe, maria, ester]
+/* let contactos = [pepe, maria, ester]
 class Contacts {
     constructor() {
         this.person = contactos;
@@ -95,7 +95,7 @@ class Contacts {
         return contactos;
     }
 }
-console.log(contactos);
+console.log(contactos); */
 /* 
 Reto 8
 • Guardar la clase Contacts en un fichero con extensión .js (contacts.js).

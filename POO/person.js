@@ -22,16 +22,6 @@ class Person {
         for (let persona in this){
             console.log(`${persona} - ${this[persona]}`)
         }
-   /*  printAll() {
-        console.log("Nombre - " + this.name);
-        console.log("Edad - " +  this.age);
-        console.log("Año de nacimiento - " + this.yearOfBirth);
-        console.log("Nacionalidad - " + this.nationality);
-        console.log("Color de pelo - " + this.hairColor);
-        console.log("Color de ojos - " + this.eyesColor);
-        console.log("Peso - " + this.weight);
-        console.log("Etnia - " + this.ethnicity);
-        console.log("Altura - " +  this.height); */
     }
     printHobbies(){
         console.log(this.hobbies);
