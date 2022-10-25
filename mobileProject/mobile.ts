@@ -12,37 +12,37 @@ export class Mobile {
         this.color = color;
         this.price = price;
     }
-    getName():string {
+   public getName():string {
         return this.name;
     }
-    setName(name:string) {
+   public setName(name:string) {
         this.name = name;
     }
-    getTrademark():string {
+   public getTrademark():string {
         return this.trademark;
     }
-    setTrademark(trademark:string) {
+   public setTrademark(trademark:string) {
         this.trademark = trademark;
     }
-    getModel():string {
+   public getModel():string {
         return this.model;
     }
-    setModel(model:string) {
+   public setModel(model:string) {
         this.model = model;
     }
-    getColor():string {
+   public getColor():string {
         return this.color;
     }
-    setColor(color:string) {
+   public setColor(color:string) {
         this.color = color;
     }
-    getPrice():number {
+   public getPrice():number {
         return this.price;
     }
-    setPrice(price:number) {
+   public setPrice(price:number) {
         this.price = price;
     }
-    caracteristicas(){
+   public caracteristicas(){
         console.log(`The characteristics of the mobile name are: \n
         Name: ${this.name} 
         Trademark: ${this.trademark} 

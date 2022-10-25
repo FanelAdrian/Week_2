@@ -2,6 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var point_1 = require("./point");
 var myPoint = new point_1.Point(5, 10);
-console.log(myPoint.getX());
-myPoint.setY(15);
-console.log(myPoint.toString());
+var myPoint2 = new point_1.Point(8, 11);
+var myPoint3 = new point_1.Point(-9, 47);
+var anotherPoint = new point_1.Point(3, 9);
+// console.log(myPoint.getX());
+// myPoint.setY(15);
+// console.log(myPoint.toString());
+// console.log(myPoint.distanceToOrigin());
+// console.log(myPoint.calculateDistance(anotherPoint));
+// console.log(myPoint.calculateQuadrant());
+console.log(myPoint.calculateNearest([anotherPoint, myPoint2, myPoint3]));
