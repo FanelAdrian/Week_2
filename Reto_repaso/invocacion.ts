@@ -1,0 +1,11 @@
+import { isEven } from "./condicionales";
+import { add } from "./buclesFor";
+let palabrasC = ["Casa", "Coche", "Ciudad", "Cesta"];
+let palabrasB = ["Barco", "Baca", "Bicicleta", "Balon", "Bisiesto", "Brasil"];
+let palabrasV = ["Venezuela", "Veneno", "Voltaje"];
+let numerosC = add(palabrasC);
+let numerosB = add(palabrasB);
+let numerosV = add(palabrasV);
+isEven(numerosC);
+isEven(numerosB);
+isEven(numerosV);
